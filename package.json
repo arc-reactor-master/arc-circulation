@@ -1,0 +1,15 @@
+{
+  "name": "farm-user",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "hardhat run scripts/server.js --network mainnet",
+    "hconsole": "hardhat console --network mainnet"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "ethers": "^5.5.4",
+    "hardhat": "^2.9.1"
+  }
+}
